@@ -1,6 +1,6 @@
 #include "Date.h"
 
-//Alínea a)
+//AlÃ­nea a)
 Date::Date(int y, int m, int d)
 {
 	this->y = y;
@@ -8,7 +8,7 @@ Date::Date(int y, int m, int d)
 	this->d = d;
 }
 
-//Alínea b)
+//AlÃ­nea b)
 bool operator<(const Date& left, const Date& right)
 {
 	int date_left, date_right;
@@ -26,6 +26,7 @@ bool operator==(const Date& left, const Date& right)
 	return 0;
 }
 
+//AlÃ­nea c)
 istream & operator>>(istream & f, Date & date)
 {
 	char h1, h2;
