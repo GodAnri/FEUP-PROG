@@ -1,9 +1,11 @@
 /*
-ExercÌcio 3 do exame de 2016/17
+Exerc√≠cio 3 do exame de 2016/17
 
-AlÌnea a) - Image.h
-AlÌnea b) - Image.cpp
-AlÌnea c) - multimap<Date,Image>
+Al√≠nea a) - Image.h (getPixel)
+Al√≠nea b) - Image.cpp (getRegion)
+Al√≠nea c) - multimap<Date,Image>
+Al√≠nea d) - main.cpp (main)
+Al√≠nea e) - Image.h (template <class T>)
 */
 
 #include "Date.h"
@@ -13,6 +15,7 @@ AlÌnea c) - multimap<Date,Image>
 
 using namespace std;
 
+//Al√≠nea d)
 int main()
 {
 	Image img;
