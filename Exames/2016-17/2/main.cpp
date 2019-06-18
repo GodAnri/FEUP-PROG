@@ -1,12 +1,13 @@
 /*
-Exercício 2 do exame de 2016/17
-Alínea a) e b) - Date.cpp
-Adicionei também as outras funções para ser possível correr o programa.
+ExercÃ­cio 2 do exame de 2016/17
+AlÃ­nea a), b) e c) - Date.cpp
+Adicionei tambÃ©m as outras funÃ§Ãµes para ser possÃ­vel correr o programa.
 */
 
 #include <iostream>
 #include "Date.h"
 
+//AlÃ­nea d)
 int main()
 {
 	Date date1, date2;
