@@ -1,0 +1,46 @@
+a)
+double readNumber(char msg[])		double readNumber(string msg)
+{					{
+ ...					 ...
+ cout << msg; cin >> number;		 cout << msg; cin >> number;
+ ...					 ...
+}					}
+Chamada: readNumber("Grade ? ")		Chamada: readNumber(string("Grade ? ")
+
+
+b) Sim, é possível, visto que o construtor da class Date tem y, m e d iguais a
+1 como parâmetros por defeito (caso não lhe sejam passados outros parâmetros).
+
+c)
+class Image
+{
+public:
+	//...
+private:
+	int **img;
+	//...
+};
+Seria necessário acrescentar um método para alocar o espaço necessário de
+maneira a que img possua o número de linhas e colunas adequado.
+
+d)
+Image::Image(size_t nLins = 0, size_t nCols = 0, int pixVal = 0)
+{
+	this->nLins = nLins;
+	this->nCols = nCols;
+
+	img = new int *[nLins];
+
+	for (int i = 0; i < nLins; i++)
+		img[i] = new int[nCols];
+
+	for (int y = 0; y < nLins; y++)
+		for (int x = 0; x < nCols; x++)
+			img[y][x] = pixVal;
+
+e) A list consiste num bidirectional container, e o sort aceita apenas
+random access iterators.
+
+f) Definiu-se o método draw como uma pure virtual function, o que significa
+que não tem corpo e este terá de ser definido em todas as derived classes,
+portanto esta classe é abstrata.
