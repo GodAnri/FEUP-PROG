@@ -1,0 +1,1 @@
+a) Porque a class Board tem parâmetros por defeito no constructor, mas a class Ship não.
