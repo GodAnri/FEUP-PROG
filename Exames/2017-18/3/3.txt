@@ -1,0 +1,25 @@
+3.b)
+if (find(v.begin(), v.end(), "31") != v.end())
+	cout << "The value was found.";
+else
+	cout << "The value was not found.";
+
+
+3.c) sets são containers cujos elementos estão ordenados, portanto, para criar
+um set de positions, seria necessário criar um método para comparar/ordenar
+esta struct (por exemplo, fazer overload do operator<).
+
+
+3.d) A saída do programa é:
+2 3
+2
+2 3
+
+Caso se tirasse o qualificativo virtual, a saída seria:
+2 3
+2
+2
+
+Se o qualificativo protected da classe Base fosse substituído por private,
+a classe Derived não teria possibilidade de aceder ao membro _a, uma vez que
+apenas a classe Base teria acesso a este.
