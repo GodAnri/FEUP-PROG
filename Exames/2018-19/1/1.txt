@@ -1,0 +1,22 @@
+Começando pela pergunta "Num programa escrito em C++ é possível declarar uma
+variável com o nome friend, por exemplo:   string friend;":
+F (friend não pode ser usado com variáveis)
+V
+V
+F (para funcionar caso ch seja char teria de ser (ch == 'X'))
+F (essa instrução lê apenas uma palavra)
+F (para produzir o output 123456789 teria de ser i < 10 em vez de i >= 10)
+F (a[0][0])
+F (s.first)
+V
+V
+V
+F (sort usa Random Access, list é Bidirectional)
+V
+F (a2 = a1 não cria uma cópia do array a1)
+V
+V
+V
+F (A é derivada de B, as protected de B são protected em A e as public de B
+são public em A)
+V
